@@ -13,7 +13,7 @@ PINECONE_API_KEY=os.getenv("PINECONE_API_KEY")
 os.environ["PINECONE_API_KEY"] =PINECONE_API_KEY
 
 
-extracted_data=load_pdf_file(data='/Users/innovapathinc/Desktop/Deployement/End-to-End-Medical-Chatbot/Data')
+extracted_data=load_pdf_file(data='/Users/innovapathinc/Desktop/Deployement new /medical_llm_chatbot/Data')
 text_chunks=text_split(extracted_data)
 embeddings = download_hugging_face_embeddings()
 
